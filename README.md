@@ -1,20 +1,20 @@
 # _TEMPLATE_
 
-#### _Practice website to TEMPLATE, 2020-10-27_
+#### _Practice website to demonstrate understanding of JavaScript functions and branching, 2020-12-02_
 
 #### By _**Ash Porter (KirbyPaint)**_
 
 ## Description
 
-_The purpose of this TEMPLATE_
+_The purpose of this website is to demonstrate basic functions and validation, in regards to a triangle_
 
 ## Setup/Installation Requirements
 
-* _REQUIREMENTS_
+* _Web browser will run it, use a recent one_
 
 ## Known Bugs
 
-_Currently none_
+_It doesn't strictly validate input, the user could enter in a zero, or negative numbers, and I doubt it would do anything._
 
 ## Support and contact details
 
@@ -22,7 +22,7 @@ _Discord: @KirbyPaint#0751_
 
 ## Technologies Used
 
-_LANGUAGES_
+_HTML, CSS, JavaScript_
 
 ### License
 
