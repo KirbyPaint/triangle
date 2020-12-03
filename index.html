@@ -5,30 +5,35 @@
   <link href="css/styles.css" rel="stylesheet" type="text/css">
   <script src="js/jquery-3.5.1.js"></script>
   <script src="js/scripts.js"></script>
-  <title>Animal Wikia</title>
+  <title>Triangle Math</title>
 </head>
 <body>
   <div class="container">
-    <h1>Welcome to the Animal Wikia</h1>
+    <h1>MATH</h1>
 
-    <p>Please select an animal from the choices below:</p>
+    <p>Enter the lengths of your triangle below:</p>
 
-    <button type="submit" class="btn" id="btn1">Wolf</button>
-    <button type="submit" class="btn" id="btn2">Snake</button>
-    <button type="submit" class="btn" id="btn3">Dragon</button>
-
-    <div id="one">
-      <p>The <a href="https://en.wikipedia.org/wiki/Wolf">Wolf</a> is a large canine native to Eurasia and North America.<br>
-      <img src="https://i.guim.co.uk/img/media/8f02bb49224d9a94699b75213664bf898617c062/0_288_5315_3189/master/5315.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=89721e1224115e05a05203a62cf93f7c"></p>
-    </div>
-    <div id="two">
-      <p><a href="https://en.wikipedia.org/wiki/Snake">Snakes</a> are elongated, legless, carnivorous reptiles of the suborder Serpentes.<br>
-      <img src="https://media-cdn.tripadvisor.com/media/photo-s/01/db/4c/3e/cape-fear-serpentarium.jpg"></p>
-    </div>
-    <div id="three">
-      <p>The <a href="https://en.wikipedia.org/wiki/Dragon">Dragon</a> is a large, serpentine legendary creature that appears in the folklore of many cultures around the world.<br>
-      <img src="https://static.wikia.nocookie.net/monster/images/6/6e/DragonRed.jpg/revision/latest?cb=20160809235604"></p>
-    </div>
+    <form id="triangle"> 
+      <div class="form-group">
+        <label for="side1">1st side:</label>
+        <input id="side1" class="form-control" type="text">
+        <label for="side2">2nd side:</label>
+        <input id="side2" class="form-control" type="text">
+        <label for="side3">3rd side:</label>
+        <input id="side3" class="form-control" type="text">
+      </div>
+      <!-- The above contains the two text boxes. -->
+      <button type="submit" id="calculate" class="btn btn-primary">Calculate!</button> <!-- Each button DOES display separately and properly, thank goodness -->
+      <p>Triangle is Equilateral: <span id="equilateral"></span> <br>
+      An Equilateral Triangle has 3 sides of equal length</p>
+      <p>Triangle is Isosceles: <span id="isosceles"></span> <br>
+      An Isosceles Triangle has only two sides of equal length</p>
+      <p>Triangle is Scalene: <span id="scalene"></span> <br>
+      A Scalene Triangle has three sides of differing lengths</p>
+      <p>Triangle is Valid: <span id="valid"></span> <br>
+      A triangle is only valid if the three sides can connect. No side can be longer than the other two combined. If this displays false, then the triangle is impossible, and whether or not it technically qualifies for Scalene or Isosceles is irrelevant.</p>
+    </form>
   </div>
+
 </body>
 </html>
