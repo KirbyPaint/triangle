@@ -1,4 +1,4 @@
-# _TEMPLATE_
+# _Triangle_
 
 #### _Practice website to demonstrate understanding of JavaScript functions and branching, 2020-12-02_
 

@@ -65,7 +65,7 @@ function valid(side1, side2, side3) { // Sum of any two sides is less than or eq
 
 $(document).ready(function() {
   $("form#triangle").submit(function(event) {
-   event.preventDefault();
+    event.preventDefault();
     const side1 = parseInt($("#side1").val());
     const side2 = parseInt($("#side2").val());
     const side3 = parseInt($("#side3").val());
@@ -78,5 +78,4 @@ $(document).ready(function() {
     $("#scalene").text(sca);
     $("#valid").text(val);
   });
-
 });
